@@ -127,7 +127,7 @@ nav a:hover {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(10, 10, 10, .96) 0%, rgba(10, 10, 10, .78) 47%, rgba(10, 10, 10, .25)), url("image/bg.jpg") center/cover;
+  background: linear-gradient(90deg, rgba(10, 10, 10, .96) 0%, rgba(10, 10, 10, .78) 47%, rgba(10, 10, 10, .25)), url("image/bg.jpeg") center/cover;
   opacity: .9
 }
 
@@ -222,7 +222,7 @@ h1 span {
 
 .hero-meta strong {
   font-family: Manrope;
-  font-size: 21px
+  font-size: 19px
 }
 
 .hero-meta span {
@@ -441,8 +441,10 @@ h1 span {
 }
 
 .stats-section {
-  background: #191919;
-  color: #fff
+  color: #fff;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(10, 10, 10, .96) 0%, rgba(10, 10, 10, .78) 47%, rgba(10, 10, 10, .25)), url("image/bg2.jpg") center/cover;
+  opacity: .9
 }
 
 .stats-wrap {
